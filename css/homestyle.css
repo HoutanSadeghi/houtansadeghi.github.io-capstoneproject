@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+figure {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  border: 5px solid #f0f0f0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
